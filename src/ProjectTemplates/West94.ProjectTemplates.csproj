@@ -5,7 +5,7 @@
     <PackageId>West94.ProjectTemplates</PackageId>
     <Title>West94 Project Templates</Title>
     <Authors>Jeremy Schlachter</Authors>
-    <Description>Templates to use when creating an application for Adatum Corporation.</Description>
+    <Description>Templates to use when creating an application for West94.</Description>
     <PackageTags>dotnet-new;templates;contoso</PackageTags>
 
     <TargetFramework>net7.0</TargetFramework>
