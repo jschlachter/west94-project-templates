@@ -1,0 +1,7 @@
+<Project>
+    <Target Name="DisplayMessages">
+        <Message Text="Project File Name = $(MSBuildProjectFile)" />
+        <Message Text="Project Extension = $(MSBuildProjectExtension)" />
+        <Message Text="Target Frameworks = $(TargetFrameworks)" />
+    </Target>
+</Project>

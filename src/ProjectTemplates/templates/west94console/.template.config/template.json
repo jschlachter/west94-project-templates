@@ -1,0 +1,34 @@
+{
+  "author": "Mattias Karlsson",
+  "classifications": ["Console"],
+  "name": "Devlead console template",
+  "identity": "Devlead.Console",
+  "shortName": "devleadconsole",
+  "sourceName": "Devlead.Console",
+  "tags": {
+    "language": "C#"
+  },
+  "symbols": {
+    "TargetFrameworkOverride": {
+      "type": "parameter",
+      "description": "Overrides the target framework",
+      "replaces": "TargetFrameworkOverride",
+      "datatype": "string",
+      "defaultValue": "",
+      "displayName": "Target framework override"
+    },
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "defaultValue": "net7.0",
+      "replaces": "$(DefaultNetCoreTargetFramework)",
+      "choices": [
+        {
+          "choice": "net7.0",
+          "description": "Target .NET 7"
+        }
+      ]
+    }
+  }
+}
